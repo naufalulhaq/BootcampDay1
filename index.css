@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+.title {
+    color: red;
+}
+
+.cardParent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    background-color: #DDF2F1;
+    padding: 20px;
+}
+
+.card {
+    display: flexbox;
+    width: 196px;
+    max-width: 100%;
+    min-height: 180;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
