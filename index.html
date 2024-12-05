@@ -5,33 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nopal's Page</title>
     <link rel="stylesheet" href="./index.css">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
 </head>
 <body>
-    <div style="display: flex; padding: 100px; gap: 100px;">
-        <div>
-            <h2 style="font-family: sans-serif;">Hi, I am Naufal, I do things!</h2>
-            <p>I am an Information Technology graduate with strong foundation in business intelligence, data analysis, machine learning, and data visualization.</p>
-            <button>Download CV</button>
+    <nav>
+        <nav class="nav-flex">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <div class="hero">
+        <div class="hero-item">
+            <h2 style="font-family: sans-serif;">Hi, I am Naufal. <br>I do things!</h2>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button>Download Resume</button>
         </div>
-        <div>
-            <img src="./assets/profile pict.png" alt="Profile Picture Naufal Dhiya Ulhaq" style="height: 200px; border-radius: 100%;">
+        <div class="hero-item">
+            <img class="profilePict" src="./assets/profile pict.png" alt="Profile Picture Naufal Dhiya Ulhaq" style="height: 300px; border-radius: 100%;">
         </div>
     </div>
-    <div style="background-color: #EDF7FA; padding: 20px 100px 20px;">
-        <div style="display: flex; justify-content: space-between;">
-            <p>Experiences</p>
-            <a href="">View More</a>
-        </div>
-        <div class="experienceCardParent">
-            <div class="experienceCard">
-                <h3>Experience 1</h3>
-                <p>Des 2020 - jan 2021 | Content Writer</p>
-                <p>Thes is a description of an experience that i've done</p>
+    <div class="experience-bg">
+        <div class="experience">
+            <div style="display: flex; justify-content: space-between;">
+                <p>Experiences</p>
+                <a href="">View More</a>
             </div>
-            <div class="experienceCard">
-                <h3>Experience 1</h3>
-                <p>Des 2020 - jan 2021 | Content Writer</p>
-                <p>Thes is a description of an experience that i've done</p>
+            <div class="experienceCardParent">
+                <div class="experienceCard">
+                    <h3>Experience 1</h3>
+                    <p>Des 2020 - jan 2021 | Content Writer</p>
+                    <p>Thes is a description of an experience that i've done</p>
+                </div>
+                <div class="experienceCard">
+                    <h3>Experience 1</h3>
+                    <p>Des 2020 - jan 2021 | Content Writer</p>
+                    <p>Thes is a description of an experience that i've done</p>
+                </div>
             </div>
         </div>
     </div>
