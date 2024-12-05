@@ -7,6 +7,18 @@ p{
     margin: 5px;
 }
 
+h2{
+    font-family: sans-serif;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+button {
+    background-color: aqua;
+    border-color: aqua;
+}
 .title {
     color: red;
 }
@@ -35,4 +47,23 @@ p{
 .card:hover{
     scale: 1.1;
     transition: 0.5s;
+}
+
+.experienceCard {
+    display: flexbox;
+    width: 196px;
+    max-width: 100%;
+    min-height: 180;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.experienceCardParent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
